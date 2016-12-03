@@ -1,4 +1,7 @@
 Proofs
-
-* Run Thread without QEventLoop and send signal to main thread which uses Qt Main Loop
+-----------------------------------------------------------------------------------------
 * Message delivery from one thread to another thread using queue message with thread safe
+
+
+Done
+* Run Thread without QEventLoop and send signal to main thread which uses Qt Main Loop

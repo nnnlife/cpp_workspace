@@ -4,6 +4,10 @@
 *.o
 *.obj
 
+Makefile
+moc_*
+*.moc
+
 # Precompiled Headers
 *.gch
 *.pch
