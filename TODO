@@ -4,4 +4,10 @@ Proofs
 
 
 Done
+-----------------------------------------------------------------------------------------
 * Run Thread without QEventLoop and send signal to main thread which uses Qt Main Loop
+ - qt/sending_signal_without_eventloop_in_thread
+
+* create function call to get reference without preallocate an object and do not care to delete that object
+ - cpp/shared_ptr_get_reference
+
