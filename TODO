@@ -11,3 +11,5 @@ Done
 * create function call to get reference without preallocate an object and do not care to delete that object
  - cpp/shared_ptr_get_reference
 
+* test virtual destructor in CPP
+ - cpp/virtual_destructor
