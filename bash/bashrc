@@ -1,0 +1,15 @@
+
+function cgrep()
+{
+    find . -name .repo -prune -o -name .moc -prune -o -name 'moc_*' -prune -o -name .git -prune -o -name out -prune -o -type f \( -name '*.c' -o -name '*.cc' -o -name '*.cpp' -o -name '*.h' -o -name '*.hpp' \) \
+        -exec grep --color -n "$@" {} +
+}
+
+function jgrep()
+{
+    find . -name .repo -prune -o -name .git -prune -o -name out -prune -o -type f -name "*\.java" \
+        -exec grep --color -n "$@" {} +
+}
+
+complete -F cgrep cgrep
+complete -F jgrep jgrep
